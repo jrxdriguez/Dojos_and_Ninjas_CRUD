@@ -1,0 +1,72 @@
+.flex {
+    display:flex;
+}
+.jc_center {
+    justify-content: center;
+}
+.align-left {
+    align-items: center;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left:15%;
+    margin-right:15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: rgb(63, 59, 59);
+    width:300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.box2 {
+    background-color: rgb(63, 59, 59);
+    width:300px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(30, 129, 222);
+}
+.btnshape {
+    border-radius: 8px;
+}
+.bluetxt {
+    color: rgb(30, 129, 222)
+}
+.yellowtxt {
+    color:rgb(235, 201, 66);
+}
+
+.form {
+    background-color:  rgb(63, 59, 59);
+    margin-top:100px; 
+    margin:auto;
+    width: 350px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table td, .table th {
+    padding: 10px 15px;
+    text-align: center;
+    border:1px solid #ddd;
+}
+
+.table th {
+    background-color:  rgb(63, 59, 59);
+    color: whitesmoke;
+}
